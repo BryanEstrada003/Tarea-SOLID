@@ -8,6 +8,6 @@ package Solucion_Problema3;
  *
  * @author HOME
  */
-class Inscripcion {
-    //clase solo ilustrativa, para que no exista error de sintaxis
+class Ruta {
+        //clase que solo sirve para que no de error en el ejemplo
 }

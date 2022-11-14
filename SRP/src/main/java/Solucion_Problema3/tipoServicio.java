@@ -8,6 +8,17 @@ package Solucion_Problema3;
  *
  * @author HOME
  */
-class Criterio {
-    //clase solo ilustrativa, para que no exista error de sintaxis
+public enum tipoServicio {
+    /**
+    * Tipo de servicio de taxi.
+    */
+    TAXI, 
+    /**
+    * Tipo de servicio de delivery de comida.
+    */
+    DELIVERY, 
+    /**
+    * Tipo de servicio de entrega de encomiendas.
+    */
+    ENCOMIENDA;
 }

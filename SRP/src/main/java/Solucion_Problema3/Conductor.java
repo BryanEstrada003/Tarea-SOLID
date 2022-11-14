@@ -8,6 +8,6 @@ package Solucion_Problema3;
  *
  * @author HOME
  */
-class Premio {
-    //clase solo ilustrativa, para que no exista error de sintaxis
+class Conductor {
+    //clase que solo sirve para que no de error dentro del ejemplo
 }
