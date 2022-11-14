@@ -15,10 +15,6 @@ public class Codigo {
         return cod;
     }
     
-    /**
-    * Método estatico que genera un código por el pedido.
-    * @return Devuelve un int que indica el código por el pedido.
-    */
     protected static int generarCodPedido(){
     int codP=(int)(Math.random()*(9999-1000)+1000);
         return codP;

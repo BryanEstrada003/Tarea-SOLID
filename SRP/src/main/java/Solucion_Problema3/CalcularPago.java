@@ -9,11 +9,6 @@ package Solucion_Problema3;
  * @author HOME
  */
 public class CalcularPago {
-    /**
-    * Método que cálcula y muestra el valor a pagar de un servicio.
-    * @param tp Tipo de pago que realizara.
-     * @param s
-    */
     protected void calcularValorPagar(tipoPago tp, Servicio s){
         double numAleatorio =Math.random()*10;
         double valorTotalPagar= 0;
@@ -25,19 +20,14 @@ public class CalcularPago {
         }
         
     }
-    
-    /**
-    * Método que cálcula y muestra el valor a pagar de un servicio.
-    * @param valorTotalPagar Valor total a pagar por los platos.
-    * @param tp Tipo de pago que realizara.
-    */
-    protected void calcularValorPagar(double valorTotalPagar,tipoPago tp, Servicio s){
+
+    protected void calcularValorPagar(double valorTP,tipoPago tp, Servicio s){
         double precioEntrega =Math.random()*5;
         if (tp.equals(tipoPago.EFECTIVO)){
-            valorTotalPagar+=precioEntrega;
+            valorTP+=precioEntrega;
         }else if (tp.equals(tipoPago.TARJETA)){
-            valorTotalPagar=(valorTotalPagar+precioEntrega)*1.1;
+            valorTP=(valorTP+precioEntrega)*1.1;
         }
-        s.setValorapagar(valorTotalPagar);
+        s.setValorapagar(valorTP);
     }
 }
