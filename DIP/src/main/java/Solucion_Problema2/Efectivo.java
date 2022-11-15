@@ -8,13 +8,13 @@ package Solucion_Problema2;
  *
  * @author HOME
  */
-public class Cuenta {
-    String Cedula;
-    String nombre;
-    String Apellido;
-    String User;
-    String Contrasenia; 
-    String celular; 
-    String numtarjeta;
-    String edad;
+public class Efectivo implements IEfectivo{
+    String monedaTipo;
+    int cantidad;
+
+    public Efectivo(String monedaTipo, int cantidad) {
+        this.monedaTipo = monedaTipo;
+        this.cantidad = cantidad;
+    }
+    
 }

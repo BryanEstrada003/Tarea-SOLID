@@ -8,6 +8,14 @@ package Solucion_Problema2;
  *
  * @author HOME
  */
-class Pedido {
+public class Tarjeta implements ITarjeta{
+    int nroTajeta;
+    String cta;
+
+    public Tarjeta(int nroTajeta, String cta) {
+        this.nroTajeta = nroTajeta;
+        this.cta = cta;
+    }
+    
     
 }

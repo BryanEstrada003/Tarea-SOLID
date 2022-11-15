@@ -8,7 +8,6 @@ package Solucion_Problema2;
  *
  * @author HOME
  */
-public interface IEncomienda {
-    //funciones principales
-    void solicitarEncomienda();
+public interface IEfectivo {
+    //modules
 }

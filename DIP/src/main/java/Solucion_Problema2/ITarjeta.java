@@ -8,7 +8,6 @@ package Solucion_Problema2;
  *
  * @author HOME
  */
-public interface ITaxi {
-    //funciones principales
-    void solicitarTaxi();
+public interface ITarjeta {
+    //modules
 }

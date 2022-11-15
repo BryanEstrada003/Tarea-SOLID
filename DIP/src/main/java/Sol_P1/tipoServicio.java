@@ -2,19 +2,23 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Solucion_Problema2;
+package Sol_P1;
 
 /**
  *
  * @author HOME
  */
-public enum tipoPago {
+public enum tipoServicio {
     /**
-    * Tipo de pago de dinero en efectivo.
+    * Tipo de servicio de taxi.
     */
-    EFECTIVO, 
+    TAXI, 
     /**
-    *Tipo de pago con tarjeta de credito.
+    * Tipo de servicio de delivery de comida.
     */
-    TARJETA;
+    DELIVERY, 
+    /**
+    * Tipo de servicio de entrega de encomiendas.
+    */
+    ENCOMIENDA;
 }

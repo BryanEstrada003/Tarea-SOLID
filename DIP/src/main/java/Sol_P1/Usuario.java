@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Solucion_Problema2;
+package Sol_P1;
 
 import ManejoArchivo.Lectura;
 import java.util.ArrayList;
